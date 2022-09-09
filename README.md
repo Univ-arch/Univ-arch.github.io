@@ -1,3 +1,2 @@
 "# Univarch" 
-this is a modification of readme
-Welcome !
+this is Website repo of Univarch.com - Welcome !
