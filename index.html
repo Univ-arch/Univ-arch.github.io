@@ -1,10 +1,499 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <title>My test page</title>
-  </head>
-  <body>
-    <img src="img/anistocrate.png" alt="My test image">
-  </body>
+<html lang="FR">
+<head>
+  <meta charset="utf-8">
+  <title>UNIVARC - Assoul Chemsedine</title>
+  <meta name="description" content="Bureau d'architecture UNIVARC">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icons/icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icons/icon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icons/icon-16x16.png">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap-custom.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/tiny-slider.css">
+  <link rel="stylesheet" href="css/lity.min.css">
+  <link rel="stylesheet" href="css/simplebar.min.css">
+  <link rel="stylesheet" href="css/jquery.mb.YTPlayer.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link id="color-scheme" rel="stylesheet" href="css/colors/main-darkgreen.css">
+</head>
+
+<body class="theme-dark">
+  <!-- Preloader-->
+  <div class="preloader">
+    <div class="preloader-block">
+      <div class="preloader-icon"><span class="loading-dot loading-dot-1"></span><span class="loading-dot loading-dot-2"></span><span class="loading-dot loading-dot-3"></span></div>
+    </div>
+  </div>
+  <div id="overlay-effect"></div>
+  <!-- Navbar-->
+  <nav class="navbar-expand-md navbar fixed-top" id="navbar"><a class="navbar-brand" data-scroll="" href="#home-area">
+      <!-- Navbar Logo-->
+      <img class="img-fluid" src="img/logo.png" alt="Logo"></a>
+    <span class="navbar-menu ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role="button"><span class="btn-line"></span></span>
+    <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
+      <!-- Navbar menu-->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">A Propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Architecture Action</a></li>
+        <li class="nav-item"><a class="nav-link" href="#blog">Architecture Emotion</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Nous Contacter</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Home-->
+  <section class="home-area element-cover-bg" id="home" style="background-image:url(img/home.jpg)">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center">
+        <div class="col-12 col-lg-8 home-content text-center">
+          <h1 class="home-name">UNIV <span>ARC</span></h1>
+          <h4 class="cd-headline clip home-headline">L'Architecture <span class="cd-words-wrapper single-headline"><b class="is-visible">Univers</b><b>Action</b><b>Emotion</b></span></h4>
+        </div>
+      </div>
+    </div>
+    <div class="fixed-wrapper">
+      <!-- Languages list-->
+      <div class="fixed-block block-left">
+        <ul class="list-unstyled languages-list">
+          <li><a href="#0"><span class="single-language">INFO</span></a></li>
+          <!-- <li><a href="#0"><span class="single-language">FR</span></a></li> -->
+        </ul>
+      </div>
+      <!-- Social media icons--
+      <div class="fixed-block block-right">
+        <ul class="list-unstyled social-icons">
+          <li><a href="#0"><i class="icon ion-logo-twitter"></i></a></li>
+        </ul>
+      </div> -->
+    </div>
+  </section>
+  <!-- About lightbox-->
+  <div class="lightbox-wrapper" id="about" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <img class="img-fluid" src="img/logo.png" alt="Logo">
+                  <p class="section-description">A PROPOS</p>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Info section-->
+            <div class="info-section single-section">
+              <div class="row align-items-center">
+                <!-- Picture part-->
+                <div class="col-12 col-lg-5 info-img"><img class="img-fluid img-thumbnail" src="img/info.jpg" alt="About Picture"></div>
+                <!-- Content part-->
+                <div class="col-12 col-lg-7 info-content">
+                  <div class="content-block">
+                    <h2 class="content-subtitle">Qui suis-je?</h2>
+                    <h6 class="content-title">Je suis ASSOUL Chemsedine, Architecte Bla bla bla bla bla</h6>
+                    <div class="content-description">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                    <address class="content-info">
+                      <div class="row">
+                        <div class="col-12 col-md-6 single-info"><span>Name:</span>
+                          <p>ASSOUL Chemsedine</p>
+                        </div>
+                        <div class="col-12 col-md-6 single-info"><span>Email:</span>
+                          <p><a href="mailto:arcassoul@gmail.com">arcassoul@gmail.com</a></p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 col-md-6 single-info"><span>From:</span>
+                          <p>Bejaia, DZ</p>
+                        </div>
+                      </div>
+                    </address>
+                    <div class="d-block d-sm-flex align-items-center"><a class="btn content-download button-main button-scheme" href="#0" role="button">Telecharger la Carte de Visite</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Services section--
+            <div class="services-section single-section">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading">
+                    <p class="section-description">Services i offer to my clients</p>
+                    <h2 class="section-title">My Services</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                !-- Single service--
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-logo-css3"></i>
+                    <h6 class="service-title">Design Trends</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                !-- Single service--
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-md-images"></i>
+                    <h6 class="service-title">PSD Design</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                !-- Single service--
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-logo-ionic"></i>
+                    <h6 class="service-title">Customer Support</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                !-- Single service--
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-logo-wordpress"></i>
+                    <h6 class="service-title">Web Development</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                !-- Single service--
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-md-move"></i>
+                    <h6 class="service-title">Fully Responsive</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                !-- Single service--
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-ios-rocket"></i>
+                    <h6 class="service-title">Branding</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- Avis section-->
+            <div class="testimonials-section single-section">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading">
+                    <p class="section-description">Mini Title</p>
+                    <h2 class="section-title">MAIN TITLE</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="my-slider">
+                <div class="slider-item">
+                  <!-- Single review-->
+                  <div class="single-review swiper-slide">
+                    <div class="review-header d-flex justify-content-between">
+                      <div class="review-client">
+                        <div class="media"><img class="img-fluid rounded-circle client-avatar" src="img/PP.png" alt="">
+                          <div class="client-details">
+                            <h6 class="client-name">Bold Title</h6><span class="client-role">Grey title</span>
+                          </div>
+                        </div>
+                      </div><img class="icon ion-md-quote review-icon" width=50px, height=50px src="img/PP.png" alt="">
+                    </div>
+                    <p class="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <!-- Single review-->
+                  <div class="single-review swiper-slide">
+                    <div class="review-header d-flex justify-content-between">
+                      <div class="review-client">
+                        <div class="media"><img class="img-fluid rounded-circle client-avatar" src="img/PP.png" alt="">
+                          <div class="client-details">
+                            <h6 class="client-name">Bold Title</h6><span class="client-role">Grey title</span>
+                          </div>
+                        </div>
+                      </div><img class="icon ion-md-quote review-icon" width=50px, height=50px src="img/PP.png" alt="">
+                    </div>
+                    <p class="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <!-- Single review-->
+                  <div class="single-review swiper-slide">
+                    <div class="review-header d-flex justify-content-between">
+                      <div class="review-client">
+                        <div class="media"><img class="img-fluid rounded-circle client-avatar" src="img/PP.png" alt="">
+                          <div class="client-details">
+                            <h6 class="client-name">Bold Title</h6><span class="client-role">Grey title</span>
+                          </div>
+                        </div>
+                      </div><img class="icon ion-md-quote review-icon" width=50px, height=50px src="img/PP.png" alt="">
+                    </div>
+                    <p class="review-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio lightbox-->
+  <div class="lightbox-wrapper" id="portfolio" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <img class="img-fluid" src="img/logo.png" alt="Logo">
+                  <p class="section-description">NOS PROJETS REALISES</p>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio section-->
+            <div class="portfolio-section single-section">
+              <div class="row">
+                <!-- Filter nav-->
+                <div class="col-12">
+                  <ul class="list-inline filter-control" role="group" aria-label="Filter Control">
+                    <li class="list-inline-item tab-active" data-filter="*">All</li>
+                    <li class="list-inline-item" data-filter=".brand">Tri1</li>
+                    <li class="list-inline-item" data-filter=".design">Tri2</li>
+                    <li class="list-inline-item" data-filter=".photos">Tri3</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Thumbnail list-->
+              <div class="portfolio-grid row">
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 design"><a class="portfolio-item" href="img/item-1.jpg" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-1.jpg">
+                      <div class="item-content">
+                        <h6 class="content-title">TITRE PROJET</h6><span class="content-more">Plus D'Information</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 photos"><a class="portfolio-item" href="img/item-2.jpg" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-2.jpg">
+                      <div class="item-content">
+                        <h6 class="content-title">TITRE PROJET</h6><span class="content-more">Plus D'Information</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 design"><a class="portfolio-item" href="img/item-3.jpg" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-3.jpg">
+                      <div class="item-content">
+                        <h6 class="content-title">TITRE PROJET</h6><span class="content-more">Plus D'Information</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 brand"><a class="portfolio-item" href="img/item-4.jpg" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-4.jpg">
+                      <div class="item-content">
+                        <h6 class="content-title">TITRE PROJET</h6><span class="content-more">Plus D'Information</span>
+                      </div>
+                    </div>
+                  </a></div>
+                <!-- Single item-->
+                <div class="single-item col-6 col-lg-4 brand"><a class="portfolio-item" href="img/item-5.jpg" data-lightbox>
+                    <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/item-5.jpg">
+                      <div class="item-content">
+                        <h6 class="content-title">TITRE PROJET</h6><span class="content-more">Plus D'Information</span>
+                      </div>
+                    </div>
+                  </a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Blog lightbox-->
+  <div class="lightbox-wrapper" id="blog" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <img class="img-fluid" src="img/logo.png" alt="Logo">
+                  <p class="section-description">Check out my latest blog posts</p>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Blog section-->
+            <div class="blog-section single-section">
+              <div class="row justify-content-center">
+                <!-- Single post-->
+                <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-1.jpg" alt="Blog post"><span class="content-date">11 Dec, 20</span></a>
+                    <div class="card-body post-content"><a href="#0">
+                        <h5 class="card-title content-title">Titre Blog</h5>
+                      </a>
+                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Single post-->
+                <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-2.jpg" alt="Blog post"><span class="content-date">12 Aug, 20</span></a>
+                    <div class="card-body post-content"><a href="#0">
+                        <h5 class="card-title content-title">Titre Blog</h5>
+                      </a>
+                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Single post-->
+                <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-3.jpg" alt="Blog post"><span class="content-date">4 Feb, 20</span></a>
+                    <div class="card-body post-content"><a href="#0">
+                        <h5 class="card-title content-title">Titre Blog</h5>
+                      </a>
+                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                    </div>
+                  </div>
+                </div><!-- Single post-->
+                <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-4.jpg" alt="Blog post"><span class="content-date">11 Dec, 19</span></a>
+                    <div class="card-body post-content"><a href="#0">
+                        <h5 class="card-title content-title">Titre Blog</h5>
+                      </a>
+                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Single post-->
+                <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-5.jpg" alt="Blog post"><span class="content-date">15 Nov, 19</span></a>
+                    <div class="card-body post-content"><a href="#0">
+                        <h5 class="card-title content-title">Titre Blog</h5>
+                      </a>
+                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Single post-->
+                <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="img/post-6.jpg" alt="Blog post"><span class="content-date">8 Aug, 19</span></a>
+                    <div class="card-body post-content"><a href="#0">
+                        <h5 class="card-title content-title">Titre Blog</h5>
+                      </a>
+                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact lightbox-->
+  <div class="lightbox-wrapper" id="contact" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description">Feel free to contact me anytimes</p>
+                  <h2 class="section-title">Nous Contacter</h2>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Contact section-->
+            <div class="contact-section single-section">
+              <div class="row">
+                <!-- Contact form-->
+                <div class="col-12 col-lg-7">
+                  <form class="contact-form" id="contact-form" action="php/contact.php">
+                    <h4 class="content-title">Envoyer Un Message</h4>
+                    <div class="row">
+                      <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-name" type="text" name="name" placeholder="Nom" required=""></div>
+                      <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-email" type="email" name="email" placeholder="Email" required=""></div>
+                      <div class="col-12 form-group"><input class="form-control" id="contact-subject" type="text" name="subject" placeholder="Sujet" required=""></div>
+                      <div class="col-12 form-group form-message"><textarea class="form-control" id="contact-message" name="message" placeholder="Message" rows="5" required=""></textarea></div>
+                      <div class="col-12 form-submit"><button class="btn button-main button-scheme" id="contact-submit" type="submit">Envoyer</button>
+                        <p class="contact-feedback"></p>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- Contact info-->
+                <div class="col-12 col-lg-5">
+                  <div class="contact-info">
+                    <h4 class="content-title">Info Contact</h4>
+                    <p class="info-description">Nous sommes prêts à répondre à vos questions</p>
+                    <ul class="list-unstyled list-info">
+                      <li>
+                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-logo-ionic"></i></span>
+                          <div class="media-body info-details">
+                            <h6 class="info-type">Nom</h6><span class="info-value">ASSOUL Chemsedine</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-map"></i></span>
+                          <div class="media-body info-details">
+                            <h6 class="info-type">Localisation</h6><span class="info-value">Bejaia Ville, Algerie</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-call"></i></span>
+                          <div class="media-body info-details">
+                            <h6 class="info-type">Numero</h6><span class="info-value"><a href="tel:+213560061340">+213 560 061 340</a></span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-send"></i></span>
+                          <div class="media-body info-details">
+                            <h6 class="info-type">Email</h6><span class="info-value"><a href="mailto:arcassoul@gmail.com?subject=CONTACT">arcassoul@gmail.com</a></span>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/animatedModal.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/lity.min.js"></script>
+  <script src="js/simplebar.min.js"></script>
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
 </html>
