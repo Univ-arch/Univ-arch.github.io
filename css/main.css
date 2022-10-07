@@ -1298,6 +1298,7 @@ hr{
     display:inline-block;
     font-weight:600
 }
+
 .portfolio-section .portfolio-grid .portfolio-wrapper:hover:before{
     opacity:1;
     visibility:visible
